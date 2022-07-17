@@ -134,7 +134,7 @@ function select(selectRow, selectCol) {
         }
     }
     else {
-        document.getElementById('but' + selectRow + '_' + selectCol).innerHTML = "<td><img src='.\\images\\highlightTom30x30.png'  class='square'  style='display:block'></td>"
+        document.getElementById('but' + selectRow + '_' + selectCol).innerHTML = "<td><img src='.\\images\\HighlightTom30x30.png'  class='square'  style='display:block'></td>"
         document.getElementById('info-player2').innerHTML = '<h2 id="name2">' + player2 + '</h2> <img src=".\\images\\Tom30x30.png" alt=""  style="max-height: 30px">'
         document.getElementById('info-player1').innerHTML = '<h2 id="name1">' + player1 + '</h2> <img src=".\\images\\Highlightjerry30x30.png" alt=""  style="max-height: 30px">'
         document.getElementById('but' + gameHistory[gameHistory.length - 1].x + '_' + gameHistory[gameHistory.length - 1].y).innerHTML = "<td><img src='.\\images\\jerry30x30.png'  class='square' style='display:block'></td>"

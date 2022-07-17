@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="game-play.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Game caro</title>
+</head>
+
+<body>
+    <div id="WELCOME">
+        <h1 id="wc">WELCOME TO CARO GAME</h1>
+        <div>Player1: <input type="text" name="player1" id="player1" class="player-name" value="Player 1"></div>
+        <div>Player2: <input type="text" name="player2" id="player2" class="player-name" value="Player 2"></div>
+        <div>Game-size: <input type="number" maxlength="2" name="size" id="size" value="10"></div>
+        <button type="button" onclick="playgame()" id="play-btn">PLAY</button>
+    </div>
+
+    <div id = "on-game"> 
+        <div class="center">
+            <header class="header">
+                <div id='info-player1'>
+                    <h2 id="name1">Player 1</h2> <img src=".\\images\\Highlightjerry30x30.png" alt="" style="max-height: 30px">
+                </div>
+                <div id="control">
+                    <div><a href="./welcome.html"><button>Reset</button></a><button onclick="undo()" id = "btn_undo">Undo</button></div>
+                </div>
+    
+                <div id='info-player2'>
+                    <h2 id="name2">Player 2</h2> <img src=".\\images\\Tom30x30.png" alt=""  style="max-height: 30px">
+                </div>
+            </header>
+            <main id="main">
+    
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- 24 row 54 colunm -->
