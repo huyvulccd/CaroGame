@@ -10,4 +10,3 @@ III.	Object
 IV.	prototype
 - Object kế thừa prototype và kế thừa cả thuộc tính lẫn phương thức nằm trong protype của mình 
 - Protytype cũng là một object, Dùng để thêm thuộc tính vào một đối tượng
- 
